@@ -3,7 +3,17 @@ entries:
   helm-chart:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2020-05-08T10:45:52.373975942Z"
+    created: "2020-05-08T11:35:42.096126472Z"
+    description: A Helm chart for Kubernetes
+    digest: 00f27142941770f2431476fb6422765a5c92642fc1bb2224b1aa228850c99410
+    name: helm-chart
+    type: application
+    urls:
+    - helm-chart-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v1
+    appVersion: 1.16.0
+    created: "2020-05-08T11:35:42.09559885Z"
     description: A Helm chart for Kubernetes
     digest: 2464dd3205ee164a189b7b6b51e772f6ab48b521517a92d0585070701f460bd1
     name: helm-chart
@@ -14,7 +24,7 @@ entries:
   helm-chart-yml:
   - apiVersion: v1
     appVersion: 1.16.0
-    created: "2020-05-08T10:45:52.374488734Z"
+    created: "2020-05-08T11:35:42.096474367Z"
     description: A Helm chart for Kubernetes
     digest: 516c64dadb80d465fd9bc93a5bb63fd4a047d9d0a9dd7d61b5c39c6a6d6a761b
     name: helm-chart-yml
@@ -22,4 +32,4 @@ entries:
     urls:
     - helm-chart-yml-0.1.0.tgz
     version: 0.1.0
-generated: "2020-05-08T10:45:52.372823892Z"
+generated: "2020-05-08T11:35:42.094894947Z"
