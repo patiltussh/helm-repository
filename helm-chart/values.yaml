@@ -1,0 +1,24 @@
+name: maven-demo
+
+labels: 
+  source: maven
+  stack: frontend
+  app: tomcat
+  app2: tomcat2
+  
+replicacount: 2
+
+matchLabels:
+  source: maven
+  app: tomcat
+
+image:
+  repository: index.docker.io/ramagcpgrafana/mavenapplication
+  
+containerPort: 8080
+
+service:
+  nodeport: 32445
+  name: maven-demo
+  type: NodePort
+  protocol: TCP
